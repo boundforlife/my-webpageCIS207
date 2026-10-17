@@ -1,0 +1,61 @@
+/* Styled Buttons */
+
+.button-primary {
+    background-color: #243447;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.button-rounded {
+    background-color: #ffd166;
+    color: #222222;
+    border: none;
+    border-radius: 20px;
+    padding: 12px 20px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.button-shadow {
+    background-color: white;
+    color: #243447;
+    border: 2px solid #243447;
+    padding: 12px 20px;
+    margin: 5px;
+    box-shadow: 4px 4px 6px #aaaaaa;
+    cursor: pointer;
+}
+
+
+/* Styled Quote Box */
+
+.quote-box {
+    background-color: #f5f1e8;
+    border-left: 5px solid #ffd166;
+    padding: 20px;
+    margin: 15px auto;
+    font-style: italic;
+    max-width: 600px;
+}
+
+
+/* Flexbox Project */
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.flex-item {
+    background-color: #243447;
+    color: white;
+    padding: 25px;
+    border-radius: 8px;
+    min-width: 120px;
+    text-align: center;
+}
