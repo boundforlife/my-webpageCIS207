@@ -90,3 +90,22 @@
     background-color: #ffd166;
     color: #222222;
 }
+
+#confirmationMessage {
+    text-align: center;
+    color: #243447;
+    font-weight: bold;
+    margin-top: 15px;
+    animation: fadeIn 0.8s ease-in;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
