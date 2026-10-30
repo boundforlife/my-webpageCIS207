@@ -53,4 +53,7 @@ document.getElementById("contactForm").addEventListener("submit", function(e) {
     // Clear the form after submitting
     this.reset();
 
+    document.getElementById("confirmationMessage").textContent =
+    "Message sent successfully!";
+
 });
