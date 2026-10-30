@@ -1,0 +1,92 @@
+/* Main contact form container */
+
+.contact-form {
+    background-color: white;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Contact form heading */
+
+.contact-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+/* Form labels */
+
+.contact-form label {
+    font-weight: bold;
+    display: block;
+    margin-top: 12px;
+}
+
+
+/* Main form fields */
+
+.contact-form input,
+.contact-form select,
+.contact-form textarea {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 9px;
+    margin-top: 5px;
+    border: 1px solid #d7d1c7;
+    border-radius: 6px;
+}
+
+
+/* Color picker and range slider */
+
+.contact-form input[type="color"],
+.contact-form input[type="range"] {
+    padding: 2px;
+}
+
+
+/* Radio buttons and checkboxes */
+
+.inline-options {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-top: 8px;
+}
+
+.inline-options label {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    font-weight: normal;
+    margin-top: 0;
+}
+
+.inline-options input {
+    width: auto;
+    margin: 0;
+}
+
+
+/* Submit button */
+
+.contact-form button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 20px;
+    background-color: #243447;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #ffd166;
+    color: #222222;
+}

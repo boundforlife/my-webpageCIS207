@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contact Me</title>
+
+    <!-- Shared site stylesheet -->
+    <link rel="stylesheet" href="../css/style.css">
+
+    <!-- Contact page stylesheet -->
+    <link rel="stylesheet" href="css/contact.css">
+
+</head>
+
+<body>
+
+    <!-- Site header and navigation -->
+    <header>
+
+        <h1>Contact Me</h1>
+
+        <nav>
+            <a href="../index.html">About Me</a> |
+            <a href="https://www.instagram.com/micahwalley">Instagram</a> |
+            <a href="https://vimm.net/">My Favorite Webpage</a> |
+            <a href="https://calvinandhobbes.webflow.io/">My Favorite Comic</a> |
+            <a href="https://www.ratemyprofessors.com/professor/3111628">My Favorite Teacher</a> |
+            <a href="../cssProjects/index.html">CSS Projects</a> |
+            <a href="index.html">Contact Me</a>
+        </nav>
+
+    </header>
+
+    <main>
+
+        <!-- Contact form for visitors -->
+        <form class="contact-form" id="contactForm">
+
+            <h2>Contact Me</h2>
+
+            <!-- Basic text inputs -->
+            <label for="name">Name:</label>
+            <input type="text" id="name" placeholder="Your Name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="Your Email" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" placeholder="Enter a password">
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" placeholder="(123) 456-7890">
+
+            <label for="website">Website:</label>
+            <input type="url" id="website" placeholder="https://example.com">
+
+            <label for="age">Age:</label>
+            <input type="number" id="age" min="1" max="120" placeholder="Your Age">
+
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob">
+
+            <label for="time">Preferred Contact Time:</label>
+            <input type="time" id="time">
+
+            <label for="color">Favorite Color:</label>
+            <input type="color" id="color" value="#243447">
+
+            <label for="range">Interest Level (1–10):</label>
+            <input type="range" id="range" min="1" max="10" value="5">
+
+            <!-- Radio buttons -->
+            <label>Preferred Contact Method:</label>
+
+            <div class="inline-options">
+
+                <label>
+                    <input type="radio" name="contactMethod" value="Email" checked>
+                    Email
+                </label>
+
+                <label>
+                    <input type="radio" name="contactMethod" value="Phone">
+                    Phone
+                </label>
+
+                <label>
+                    <input type="radio" name="contactMethod" value="Text">
+                    Text
+                </label>
+
+            </div>
+
+            <!-- Checkboxes -->
+            <label>Services Interested In:</label>
+
+            <div class="inline-options">
+
+                <label>
+                    <input type="checkbox" name="service" value="Web Design">
+                    Web Design
+                </label>
+
+                <label>
+                    <input type="checkbox" name="service" value="Consulting">
+                    Consulting
+                </label>
+
+                <label>
+                    <input type="checkbox" name="service" value="Other">
+                    Other
+                </label>
+
+            </div>
+
+            <!-- Dropdown menu -->
+            <label for="topic">Topic:</label>
+
+            <select id="topic">
+                <option value="General">General Inquiry</option>
+                <option value="Support">Support</option>
+                <option value="Feedback">Feedback</option>
+            </select>
+
+            <!-- Message box -->
+            <label for="message">Message:</label>
+
+            <textarea
+                id="message"
+                rows="4"
+                placeholder="Your Message"
+                required></textarea>
+
+            <!-- Submit button -->
+            <button type="submit">Send</button>
+
+        </form>
+
+    </main>
+
+    <!-- Site footer -->
+    <footer>
+        <p>Created by Micah Walley</p>
+    </footer>
+
+    <!-- JavaScript for the contact form -->
+    <script src="scripts/form.js"></script>
+
+</body>
+
+</html>
