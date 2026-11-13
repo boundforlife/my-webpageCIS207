@@ -109,3 +109,47 @@
     }
 }
 
+/* Results table container */
+
+#resultContainer {
+    max-width: 700px;
+    margin: 30px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 80%;
+}
+
+
+/* Submitted information heading */
+
+#resultContainer h2 {
+    text-align: center;
+}
+
+
+/* Results table */
+
+#resultTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+
+/* Table cells */
+
+#resultTable th,
+#resultTable td {
+    border: 1px solid #d7d1c7;
+    padding: 10px;
+    text-align: left;
+}
+
+
+/* Table heading row */
+
+#resultTable th {
+    background-color: #243447;
+    color: white;
+}
